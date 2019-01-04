@@ -5,11 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Selenium.WebDriver" Version="3.141.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\Services\Services.csproj" />
+    <ProjectReference Include="..\Services\2.Services.csproj" />
+    <ProjectReference Include="..\WebDriverServices\3.WebDriverServices.csproj" />
   </ItemGroup>
 
 </Project>

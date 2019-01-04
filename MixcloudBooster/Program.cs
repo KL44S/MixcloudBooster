@@ -24,12 +24,13 @@ namespace MixcloudBooster
             Console.WriteLine("Boost iniciado");
             Console.WriteLine("Presione ESC para salir");
 
-            ConsoleKey key = Console.ReadKey().Key;
-
-            while (!key.Equals(ConsoleKey.Escape))
+            ConsoleKey key;
+            
+            do
             {
                 key = Console.ReadKey().Key;
-            }
+
+            } while (!key.Equals(ConsoleKey.Escape));
 
             Console.WriteLine("Saliendo...");
             scheduler.Stop();

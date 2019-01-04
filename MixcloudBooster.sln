@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MixcloudBooster", "MixcloudBooster\MixcloudBooster.csproj", "{7D0EB609-D03A-40C3-B75C-FEB04602AE1E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.MixcloudBooster", "MixcloudBooster\1.MixcloudBooster.csproj", "{7D0EB609-D03A-40C3-B75C-FEB04602AE1E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{4CA65ACF-25FB-490B-ACC0-3C9EE6216ECC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.Services", "Services\2.Services.csproj", "{4CA65ACF-25FB-490B-ACC0-3C9EE6216ECC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factories", "Factories\Factories.csproj", "{0C825220-5980-461D-9AA5-57D55437F32E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4.Factories", "Factories\4.Factories.csproj", "{0C825220-5980-461D-9AA5-57D55437F32E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebDriverServices", "WebDriverServices\WebDriverServices.csproj", "{093E40F0-20A9-4695-BB8D-670D39B8C581}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.WebDriverServices", "WebDriverServices\3.WebDriverServices.csproj", "{093E40F0-20A9-4695-BB8D-670D39B8C581}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
