@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.MixcloudBooster", "MixcloudBooster\1.MixcloudBooster.csproj", "{7D0EB609-D03A-40C3-B75C-FEB04602AE1E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MixcloudBooster", "MixcloudBooster\MixcloudBooster.csproj", "{7D0EB609-D03A-40C3-B75C-FEB04602AE1E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.Services", "Services\2.Services.csproj", "{4CA65ACF-25FB-490B-ACC0-3C9EE6216ECC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebDriverServices", "WebDriverServices\WebDriverServices.csproj", "{093E40F0-20A9-4695-BB8D-670D39B8C581}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4.Factories", "Factories\4.Factories.csproj", "{0C825220-5980-461D-9AA5-57D55437F32E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Model", "Model\Model.csproj", "{C903E2FC-196E-49ED-B98B-AF82EBFD26F6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.WebDriverServices", "WebDriverServices\3.WebDriverServices.csproj", "{093E40F0-20A9-4695-BB8D-670D39B8C581}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccessServices", "DataAccessServices\DataAccessServices.csproj", "{C32816A6-04B3-48D6-95E8-8DA2C45E8A05}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,18 +21,18 @@ Global
 		{7D0EB609-D03A-40C3-B75C-FEB04602AE1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D0EB609-D03A-40C3-B75C-FEB04602AE1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D0EB609-D03A-40C3-B75C-FEB04602AE1E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4CA65ACF-25FB-490B-ACC0-3C9EE6216ECC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4CA65ACF-25FB-490B-ACC0-3C9EE6216ECC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4CA65ACF-25FB-490B-ACC0-3C9EE6216ECC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4CA65ACF-25FB-490B-ACC0-3C9EE6216ECC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0C825220-5980-461D-9AA5-57D55437F32E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0C825220-5980-461D-9AA5-57D55437F32E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0C825220-5980-461D-9AA5-57D55437F32E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0C825220-5980-461D-9AA5-57D55437F32E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{093E40F0-20A9-4695-BB8D-670D39B8C581}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{093E40F0-20A9-4695-BB8D-670D39B8C581}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{093E40F0-20A9-4695-BB8D-670D39B8C581}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{093E40F0-20A9-4695-BB8D-670D39B8C581}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C903E2FC-196E-49ED-B98B-AF82EBFD26F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C903E2FC-196E-49ED-B98B-AF82EBFD26F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C903E2FC-196E-49ED-B98B-AF82EBFD26F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C903E2FC-196E-49ED-B98B-AF82EBFD26F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C32816A6-04B3-48D6-95E8-8DA2C45E8A05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C32816A6-04B3-48D6-95E8-8DA2C45E8A05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C32816A6-04B3-48D6-95E8-8DA2C45E8A05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C32816A6-04B3-48D6-95E8-8DA2C45E8A05}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,25 +1,22 @@
-﻿using Factories;
-using Services;
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.Reflection;
-using System.Text;
 using System.Threading;
+using WebDriverServices;
 
 namespace MixcloudBooster
 {
     public class Scheduler
     {
-        private static IList<String> _paths;
+        private static IList<string> _paths;
         private static int _minGapMilliseconds;
         private static int _maxGapMilliseconds;
-        private static IMixcloudBooster _mixcloudBooster;
-        private static Boolean _threadMustEnd;
-        private static Boolean _threadIsSleeping;
+        private static ICloudBooster _mixcloudBooster;
+        private static bool _threadMustEnd;
+        private static bool _threadIsSleeping;
         private static Thread _thread;
         private static System.Timers.Timer _timer;
 
-        private static void TimeToAwake(Object source, System.Timers.ElapsedEventArgs e)
+        private static void TimeToAwake(object source, System.Timers.ElapsedEventArgs e)
         {
             _threadIsSleeping = false;
             _timer.Dispose();
@@ -35,12 +32,12 @@ namespace MixcloudBooster
             _threadIsSleeping = true;
         }
 
-        public Scheduler(IList<String> paths, int minGapMilliseconds, int maxGapMilliseconds)
+        public Scheduler(IList<string> paths, int minGapMilliseconds, int maxGapMilliseconds)
         {
             _paths = paths;
             _minGapMilliseconds = minGapMilliseconds;
             _maxGapMilliseconds = maxGapMilliseconds;
-            _mixcloudBooster = MixcloudBoosterFactory.GetBooster();
+            //_mixcloudBooster = CloudBoosterFactory.GetBooster();
             _threadMustEnd = false;
             _threadIsSleeping = false;
             _timer = new System.Timers.Timer();
@@ -74,9 +71,9 @@ namespace MixcloudBooster
                     if (!_threadMustEnd && !_threadIsSleeping)
                     {
                         pathRandomIndex = random.Next(_paths.Count);
-                        String path = _paths[pathRandomIndex];
+                        string path = _paths[pathRandomIndex];
 
-                        _mixcloudBooster.Boost(path);
+                        //_mixcloudBooster.Boost(path);
 
                         gapMilliseconds = random.Next(_minGapMilliseconds, _maxGapMilliseconds);
                         SleepThread(gapMilliseconds);
